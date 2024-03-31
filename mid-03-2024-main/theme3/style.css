@@ -1,0 +1,59 @@
+body {
+	background-image: url(../Img/op.jpg);
+	background-repeat: repeat;
+	background-position: center;
+	background-size: 100%;
+	background-attachment: scroll;
+}
+
+#mytitle {
+    display: block;
+    position: relative;
+    flex-direction: column;
+    text-align: center;
+    font-family: Verdana;
+    font-weight: bolder;
+    font-size: 40pt;
+    text-shadow: 4px 4px 4px rgba(0,0,0,0.5);
+}
+
+.front {
+    color: rgb(218, 20, 158);
+    text-decoration: none;
+}
+
+hr{
+	width: 99%;
+    margin: 0;
+    border: 10px solid rgba(245, 5, 125, 0.644);
+    border-radius: 5px 5px 10px 10px;
+ }
+
+
+ .ugh {
+    font-family: Berlin Sans FB;
+    font-size: 15pt;
+    font-weight: bolder;
+    text-shadow: 7px 8px 9px rgba(0,0,0,0.3);
+    color: rgb(216, 0, 101);
+    flex-direction: column-reverse;
+    text-align: center;
+    text-decoration: none;
+ }
+ 
+ h3 {
+    font-family: HoloLens MDL2 Assets;
+    font-size: 12pt;
+    color: ivory;
+ }
+
+ #footer {
+        display: flex;
+        position: absolute;
+        margin-bottom: auto;
+        width: 99%;
+        height: 5%;
+        background-color: black;
+        align-items: center;
+        justify-content: center;
+ }

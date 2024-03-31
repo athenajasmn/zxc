@@ -1,0 +1,22 @@
+body {
+	background-image: url(../Img/wr.jpg);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: 100%;
+	background-attachment: fixed;
+}
+
+.att{
+	display: flex;
+	position: absolute;
+	align-items: center;
+	left: 15%;
+	margin-top: 5%;
+	border: solid 10px saddlebrown;
+	background-color: black;
+	border-radius: 50px 0px 50px 0px;
+}
+
+video { 
+	border-radius : 40px 0px 40px 0px;  
+} 
